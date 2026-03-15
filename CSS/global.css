@@ -41,6 +41,10 @@ body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
 
 .section-title h2 {
   font-size: 28px;
