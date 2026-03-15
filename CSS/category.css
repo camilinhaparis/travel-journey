@@ -1,3 +1,6 @@
+.category {
+  margin-bottom: 80px;
+}
 .category-cards {
   display: flex;
   flex-direction: column;
