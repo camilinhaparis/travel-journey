@@ -5,12 +5,12 @@
   gap: 24px;
   margin-top: 64px;
 }
-.category-cards a.card {
+.category-cards .card {
   width: 312px;
   height: 220px;
   background-color: var(--background-secondary-color);
   text-align: center;
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 24px;
   box-sizing: border-box;
   text-decoration: none;
@@ -23,7 +23,7 @@
   margin: 10px 0 20px;
 }
 
-.category-cards .card h4 {
+.category-cards .card h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
 }
@@ -38,12 +38,12 @@
     justify-content: center;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .category-cards .card {
     width: 430px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .category-cards .card {
     width: 280px;
